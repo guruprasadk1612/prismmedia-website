@@ -76,7 +76,7 @@
               <h1>Transforming data into clear strategic insights for better decisions.</h1>
               <p>At Prism Media Intelligence, we combine human expertise with cutting-edge technology to provide exceptional data annotation services. Serving industries from eCommerce to healthcare, our Man & Machine Collaboration methodology guarantees precise, insightful, and scalable solutions customized to your AI and ML requirements. We specialise in media monitoring, competitive analysis, and custom research solutions.</p>
               <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Get Started</a>
+                <a href="#" class="btn btn-primary">Get Started</a>
             
               </div>
               <div class="hero-stats">
@@ -182,10 +182,12 @@
               <div class="service-icon">
                 <i class="bi bi-palette"></i>
               </div>
-              <h4><a>Media Monitoring</a></h4>
-              <p>Track real-time mentions across channels to stay informed and respond quickly.</p>
+              <h4><a href="service-details.html">Media Monitoring</a></h4>
+              <p>Donec vel sapien augue integer urna vel turpis cursus porta aliquam ligula eget ultricies.</p>
               <div class="service-badge">Most Popular</div>
               <a href="service-details.html" class="service-link">
+                <span>Learn More</span>
+                <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -195,10 +197,11 @@
               <div class="service-icon">
                 <i class="bi bi-layout-text-window-reverse"></i>
               </div>
-              <h4><a>Social Analytics</a></h4>
-              <p>Measure engagement, reach, and trends to understand audience behavior.</p>
+              <h4><a href="service-details.html">Social Analytics</a></h4>
+              <p>Mauris blandit aliquet elit eget tincidunt nibh pulvinar rutrum tellus pellentesque eu.</p>
               <a href="service-details.html" class="service-link">
-                
+                <span>Learn More</span>
+                <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -208,10 +211,11 @@
               <div class="service-icon">
                 <i class="bi bi-code-slash"></i>
               </div>
-              <h4><a>Competitive Research</a></h4>
-              <p>Benchmark against competitors to uncover strengths, gaps and opportunities.</p>
+              <h4><a href="service-details.html">Competitive Research</a></h4>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
               <a href="service-details.html" class="service-link">
-                
+                <span>Learn More</span>
+                <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -221,10 +225,11 @@
               <div class="service-icon">
                 <i class="bi bi-phone"></i>
               </div>
-              <h4><a>Custom Reports</a></h4>
-              <p>Tailored dashboards and insights designed to match your business goals.</p>
+              <h4><a href="service-details.html">Custom Reports</a></h4>
+              <p>Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.</p>
               <a href="service-details.html" class="service-link">
-               
+                <span>Learn More</span>
+                <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -234,10 +239,11 @@
               <div class="service-icon">
                 <i class="bi bi-megaphone"></i>
               </div>
-              <h4><a>Sentiment Analysis</a></h4>
-              <p>Gauge public opinion by analyzing positive, neutral, and negative sentiments.</p>
+              <h4><a href="service-details.html">Sentiment Analysis</a></h4>
+              <p>Sed porttitor lectus nibh donec sollicitudin molestie malesuada proin eget tortor risus.</p>
               <a href="service-details.html" class="service-link">
-                
+                <span>Learn More</span>
+                <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -247,10 +253,11 @@
               <div class="service-icon">
                 <i class="bi bi-search"></i>
               </div>
-              <h4><a>Adhoc Analysis</a></h4>
-              <p>On-demand deep dives to answer specific business questions with data.</p>
+              <h4><a href="service-details.html">Adhoc Analysis</a></h4>
+              <p>Curabitur arcu erat accumsan id imperdiet et porttitor at sem pellentesque habitant morbi.</p>
               <a href="service-details.html" class="service-link">
-                
+                <span>Learn More</span>
+                <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -262,7 +269,7 @@
             <div class="services-cta">
               <h3>Your Media, Under the Microscope!</h3>
               <p>Let's discuss your project and create something amazing together</p>
-              <a href="#contact" class="btn btn-primary">Get Started Today</a>
+              <a href="service-details.html" class="btn btn-primary">Get Started Today</a>
             </div>
 
     <!-- Why Us Section -->
@@ -489,7 +496,7 @@
 
     <div class="container footer-top">
       <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about ms-5">
+        <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename">Prism Media Intelligence</span>
           </a>
@@ -501,14 +508,47 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links ms-7">
+        <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#why-us">Why Us</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="#">Ipsam</a></li>
+            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">Dinera</a></li>
+            <li><a href="#">Trodelas</a></li>
+            <li><a href="#">Flexo</a></li>
           </ul>
         </div>
 
