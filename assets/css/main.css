@@ -4212,3 +4212,97 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* === Custom Footer Styling === */
+.footer-top {
+  text-align: center;
+}
+
+.footer-about {
+  margin-bottom: 20px;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-links {
+  margin-top: 15px;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 20px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Style the footer credits */
+.footer .credits {
+  font-size: 10px;          /* smaller text */
+  color: rgba(255, 255, 255, 0.5); /* lighter color */
+  margin-top: 5px;
+}
+
+.footer .credits a {
+  color: rgba(255, 255, 255, 0.7); /* softer link color */
+  text-decoration: none;           /* remove underline */
+}
+
+.footer .credits a:hover {
+  color: #ffffff; /* highlight link only on hover */
+}
+
+/* Ensure all footer links are aligned */
+.footer .footer-links ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;              /* place in one line */
+  justify-content: center;    /* center horizontally */
+  gap: 20px;                  /* equal spacing between links */
+}
+
+.footer .footer-links ul li {
+  margin: 0;                  /* reset margins */
+  padding: 0;                 /* reset padding */
+  line-height: 1.6;           /* uniform vertical alignment */
+}
+
+.footer .footer-links ul li a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer .footer-links ul li a:hover {
+  color: #fff;
+}
+
+/* Footer main content text */
+.footer .footer-top,
+.footer .footer-top p,
+.footer .footer-links li a {
+  font-size: 18px;   /* increase as needed */
+  line-height: 1.6;  /* optional, improves readability */
+  color: #ffffff;    /* ensures text is readable on dark background */
+}
+
+/* Optional: increase bold labels in footer */
+.footer .footer-top strong {
+  font-size: 18px;
+}
