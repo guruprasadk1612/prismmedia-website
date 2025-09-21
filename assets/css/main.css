@@ -4307,46 +4307,62 @@ section,
   font-size: 18px;
 }
 
-/* Header & Footer logo responsive */
-.logo img {
+/* Make header logo responsive */
+.header .logo img {
   max-width: 100%;
-  height: auto;       /* maintain aspect ratio */
+  height: auto;        /* maintains aspect ratio */
 }
-/* Footer responsiveness */
+/* Footer logo and content responsive */
 .footer .footer-top {
   display: flex;
-  flex-wrap: wrap;        /* stack items on small screens */
+  flex-wrap: wrap;       /* stack items vertically if screen is narrow */
   justify-content: center;
-  text-align: center;     /* center content on mobile */
+  text-align: center;    /* center all text and logo */
 }
 
 .footer .footer-about,
 .footer .footer-links {
-  flex: 1 1 100%;         /* full width on small screens */
-  margin-bottom: 20px;    /* spacing between sections */
+  flex: 1 1 100%;        /* full width on small screens */
+  margin-bottom: 15px;   /* spacing between sections */
 }
 
-/* Footer responsiveness */
-.footer .footer-top {
-  display: flex;
-  flex-wrap: wrap;        /* stack items on small screens */
-  justify-content: center;
-  text-align: center;     /* center content on mobile */
+.footer .footer-top img {
+  max-width: 80%;        /* shrink logo on mobile */
+  height: auto;
 }
-
-.footer .footer-about,
-.footer .footer-links {
-  flex: 1 1 100%;         /* full width on small screens */
-  margin-bottom: 20px;    /* spacing between sections */
-}
-
-body {
-  padding-bottom: 100px; /* adjust based on chatbox height */
-}
-
+/* Hide live chatbox on screens smaller than 768px (mobile/tablet) */
 @media (max-width: 768px) {
   .live-chatbox {
-    bottom: 10px;
-    width: 90%;
+    display: none !important;
   }
+}
+/* Only add bottom padding when chatbox is visible (desktop) */
+@media (min-width: 769px) {
+  body {
+    padding-bottom: 100px; /* adjust for chatbox height */
+  }
+}
+
+/* Mobile: remove extra padding */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
+}
+
+/* Only add bottom padding for desktop chatbox */
+@media (min-width: 1025px) { /* adjust breakpoint for large screens */
+  body {
+    padding-bottom: 100px; /* only for desktop */
+  }
+}
+
+/* Remove padding on smaller screens */
+@media (max-width: 1024px) {
+  body {
+    padding-bottom: 0;
+  }
+}
+body {
+  padding-bottom: 0 !important;
 }
