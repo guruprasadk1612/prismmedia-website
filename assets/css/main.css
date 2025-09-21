@@ -4306,3 +4306,47 @@ section,
 .footer .footer-top strong {
   font-size: 18px;
 }
+
+/* Header & Footer logo responsive */
+.logo img {
+  max-width: 100%;
+  height: auto;       /* maintain aspect ratio */
+}
+/* Footer responsiveness */
+.footer .footer-top {
+  display: flex;
+  flex-wrap: wrap;        /* stack items on small screens */
+  justify-content: center;
+  text-align: center;     /* center content on mobile */
+}
+
+.footer .footer-about,
+.footer .footer-links {
+  flex: 1 1 100%;         /* full width on small screens */
+  margin-bottom: 20px;    /* spacing between sections */
+}
+
+/* Footer responsiveness */
+.footer .footer-top {
+  display: flex;
+  flex-wrap: wrap;        /* stack items on small screens */
+  justify-content: center;
+  text-align: center;     /* center content on mobile */
+}
+
+.footer .footer-about,
+.footer .footer-links {
+  flex: 1 1 100%;         /* full width on small screens */
+  margin-bottom: 20px;    /* spacing between sections */
+}
+
+body {
+  padding-bottom: 100px; /* adjust based on chatbox height */
+}
+
+@media (max-width: 768px) {
+  .live-chatbox {
+    bottom: 10px;
+    width: 90%;
+  }
+}
